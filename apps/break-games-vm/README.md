@@ -1,0 +1,2 @@
+# Break-Games vending machine
+Break-Games Vending Machine is a webapp which, using basic HTML + JS, implements a digital vending machine with simple multiplayer games. The user selects player quantity, break time length and , the vending machine prints a QR code with a URL to connect to and, through Kubernetes a container is automatically deployed, the container has a limited lifetime (just enough to play some games during breaktime ~10 minutes) after that it will be killed and game statistics saved into a external database.
