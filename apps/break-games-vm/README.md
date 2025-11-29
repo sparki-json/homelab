@@ -5,6 +5,7 @@ Break-Games Vending Machine is a simple webapp developed with HTML/CSS and JS wi
 - [x] Creation of Dockerfile for initial frontend and backend
 - [x] Create simple webapp game with Dockerfile separated for frontend and backend
 - [ ] Deploy containers by user-request
+- [ ] CI/CD pipeline using Github actions
 - [ ] Add multiplayer (to practice web online)
 - [ ] Add more games (to make it funnier?)
 
