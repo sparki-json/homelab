@@ -13,7 +13,7 @@ Break-Games Vending Machine is a simple webapp developed with HTML/CSS and JS wi
  - Rock-Paper-Scissors-Lizard-Spock
 
 
-## Issues notes
+## Issues fixed
 ### ParrotOS repository conflict
 **ERROR** ParrotOS version 6.4 has codename `lory` which is not available with recommended Docker installation.
 
