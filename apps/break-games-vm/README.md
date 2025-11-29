@@ -1,20 +1,37 @@
 # Break-Games vending machine
-Break-Games Vending Machine is a webapp which, using basic HTML + JS, implements a digital vending machine with simple multiplayer games. The user selects player quantity, break time length and , the vending machine prints a QR code with a URL to connect to and, through Kubernetes a container is automatically deployed, the container has a limited lifetime (just enough to play some games during breaktime ~10 minutes) after that it will be killed and game statistics saved into a external database.
+Break-Games Vending Machine is a simple webapp developed with HTML/CSS and JS with Python Flask backend, the project is thought to have simple games as webapps which are deployed as containers and by user-request through the frontend of vending-machine. This is a learning project to practice Docker and Kubernetes technologies.
 
+## TO-DOs
+- [x] Creation of Dockerfile for initial frontend and backend
+- [x] Create simple webapp game with Dockerfile separated for frontend and backend
+- [ ] Deploy containers by user-request
+- [ ] Add multiplayer (to practice web online)
+- [ ] Add more games (to make it funnier?)
+
+**CURRENT GAMES**
+ - Rock-Paper-Scissors-Lizard-Spock
 
 
 ## Issues notes
 ### ParrotOS repository conflict
-ParrotOS version 6.4 has codename `lory` which is not available with recommended Docker installation, had to manually swap to `trixie`.
+**ERROR** ParrotOS version 6.4 has codename `lory` which is not available with recommended Docker installation.
+
+**FIX** Add repository codename `trixie` instead.
 
 ### Docker deamon and minikube deamon
-Docker deamon changed to minikube one with ```eval $(minikube docker-env)```, else the images were saving in default docker deamon and kubernetes couldnt find them.
+**ERROR** When creating images they're stored in default Docker deamon and cannot be accessed from Kubernetes.
+
+**FIX** Change default Docker deamon to minikube deamon with `eval $(minikube docker-env)`.
 
 ### Service type
-Using `LoadBalancer` type instead of `NodePort` in for services is not supported by `minikube` cluster.
+**ERROR** Using `LoadBalancer` type for services is not supported by `minikube` cluster.
+
+**FIX** Change to `NodePort` type.
 
 ### Minikube no external IP
-Command `minikube service --all` returns:
+**ERROR** Command `minikube service --all` returns:
 ```
 ❌  Exiting due to MK_UNIMPLEMENTED: minikube service is not currently implemented with the builtin network on QEMU
 ```
+
+**FIX** minikube services are not available when using QEMU driver, delete existing minikube cluster with `minikube delete` and create a new one with `minikube start --driver=docker` which is the preferred driver.
