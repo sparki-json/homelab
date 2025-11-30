@@ -1,6 +1,8 @@
 # Break-Games vending machine
 Break-Games Vending Machine is a simple webapp developed with HTML/CSS and JS with Python Flask backend, the project is thought to have simple games as webapps which are deployed as containers and by user-request through the frontend of vending-machine. This is a learning project to practice Docker and Kubernetes technologies.
 
+Repo can be found at [Break-Games Vending Machine](https://github.com/sparki-json/break-games-vm)
+
 ## TO-DOs
 - [x] Creation of Dockerfile for initial frontend and backend
 - [x] Create simple webapp game with Dockerfile separated for frontend and backend
