@@ -19,7 +19,8 @@ Repo can be found at [Break-Games Vending Machine](https://github.com/sparki-jso
 #### rock paper scissors lizard spock
 ![RockPaperScissorsLizardSpock screenshot](img/rpslk.png)
 
-## Issues fixed
+## Initial Found Errors
+Errors found before creating the repository:
 ### ParrotOS repository conflict
 **ERROR** ParrotOS version 6.4 has codename `lory` which is not available with recommended Docker installation.
 
