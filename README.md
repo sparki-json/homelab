@@ -5,4 +5,4 @@ Personal homelab, used to practice techonologies
  - **OS** ParrotOS 6.4
  - **Kubernetes Cluster** minikube
 ## current apps
- - **Brake-Games Vending Machine** Super basic ASCII vending machine webapp which, by a simple vending machine style website, deploys on-demand containers into a kubernetes cluster to host different simple games.
+ - **Brake-Games Vending Machine (currently working)** Super basic ASCII vending machine webapp which, by a simple vending machine style website, deploys on-demand containers into a kubernetes cluster to host different simple games.
