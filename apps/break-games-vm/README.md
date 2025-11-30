@@ -11,9 +11,13 @@ Repo can be found at [Break-Games Vending Machine](https://github.com/sparki-jso
 - [ ] Add multiplayer (to practice web online)
 - [ ] Add more games (to make it funnier?)
 
-**CURRENT GAMES**
- - Rock-Paper-Scissors-Lizard-Spock
+## Screenshots
+### vending machine
+![Vending Machine screenshot](img/vm.png)
 
+### current games
+#### rock paper scissors lizard spock
+![RockPaperScissorsLizardSpock screenshot](img/rpslk.png)
 
 ## Issues fixed
 ### ParrotOS repository conflict
