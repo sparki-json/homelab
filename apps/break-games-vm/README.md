@@ -6,10 +6,11 @@ Repo can be found at [Break-Games Vending Machine](https://github.com/sparki-jso
 ## TO-DOs
 - [x] Creation of Dockerfile for initial frontend and backend
 - [x] Create simple webapp game with Dockerfile separated for frontend and backend
-- [ ] Deploy specific kubernetes pod on-demand
-- [ ] CI/CD pipeline using Github actions
-- [ ] Add multiplayer (to practice web online)
-- [ ] Add more games (to make it funnier?)
+- [x] Deploy specific kubernetes pod on-demand (replicas are increased on user demand, further enhancement required)
+- [ ] CI/CD pipeline through Github actions
+- [ ] Add deployment on-demand with limited lifetime
+- [ ] [maybe] Add multiplayer (to practice web online)
+- [ ] [maybe] Add more games (to make it funnier?)
 
 ## Screenshots
 ### vending machine
