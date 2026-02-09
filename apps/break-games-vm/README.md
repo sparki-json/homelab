@@ -26,7 +26,7 @@ The system follows a microservices architecture hosted on AWS, orchestrated by K
 | Domain | Technology | Usage |
 | :--- | :--- | :--- |
 | **Infrastructure** | ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) | Provisioning AWS VPC, Subnets, Security Groups, and EC2 instances. |
-| **Cloud Provider** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | Hosting the K3s cluster (EC2 T2.micro). |
+| **Cloud Provider** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | Hosting the K3s cluster (EC2 T3.small). |
 | **Orchestration** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) | Managing container lifecycle, networking, and scaling. |
 | **Containerization** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | Containerizing the Frontend (Nginx) and Backend (Python). |
 | **CI/CD** | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | Automated pipelines for building images, scanning security, and deploying to AWS. |
